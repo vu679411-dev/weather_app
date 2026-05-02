@@ -1,4 +1,6 @@
 # weather_app
+VIDEO DEMO :
+https://drive.google.com/drive/u/2/folders/1VdGxwFIawiWkf2yA1JRD8QZhFSIUPHjo
 <img width="316" height="661" alt="image" src="https://github.com/user-attachments/assets/bf59c1d2-d5b7-4287-8e76-82026b3d3ad5" />
 <img width="351" height="715" alt="image" src="https://github.com/user-attachments/assets/8080c024-2f0f-42a6-9d4f-6eda58999cb5" />
 <img width="485" height="863" alt="image" src="https://github.com/user-attachments/assets/9d9e819c-0bee-4830-b6d6-ab5385fb0e5a" />
