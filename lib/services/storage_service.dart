@@ -6,19 +6,17 @@ import '../models/forecast_model.dart';
 class StorageService {
   static const _favKey = "favorite_cities";
 
-  /// =========================
-  /// 🔧 NORMALIZE CITY KEY
+  ///  NORMALIZE CITY KEY
   /// =========================
   String _normalizeCity(String city) {
     return city.toLowerCase().replaceAll(" ", "").trim();
   }
 
-  /// =========================
-  /// ⭐ FAVORITES
+  /// FAVORITES
   /// =========================
   Future<void> addFavorite(String city) async {
   final prefs = await SharedPreferences.getInstance();
-  final list = prefs.getStringList(_favKey) ?? []; // ✅ FIX
+  final list = prefs.getStringList(_favKey) ?? []; // 
 
   if (!list.contains(city)) {
     if (list.length >= 5) list.removeLast();
